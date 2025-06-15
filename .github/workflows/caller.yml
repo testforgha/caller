@@ -6,6 +6,4 @@ on:
 
 jobs:
   call-reusable-workflow:
-    uses: testforgha/reusable-workflow/.github/workflows/reusable-flow.yml@main
-    with:
-      db_credentials_json: ${{ secrets.DB_CREDENTIALS_JSON }}
+    uses: testforgha/reusable-workflow/.github/workflows/reusable-flow.yml@feature/test
