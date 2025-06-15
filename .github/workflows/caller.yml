@@ -6,4 +6,5 @@ on:
 
 jobs:
   call-reusable-workflow:
+    secrets: inherit
     uses: testforgha/reusable-workflow/.github/workflows/reusable-flow.yml@feature/secrets
