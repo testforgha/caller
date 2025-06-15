@@ -1,0 +1,11 @@
+# .github/workflows/caller-workflow.yml
+name: Call Reusable Workflow
+
+on:
+   workflow_dispatch
+
+jobs:
+  call-reusable-workflow:
+    uses: testforgha/reusable-workflow/.github/workflows/reusable-flow.yml@main
+    with:
+      db_credentials_json: ${{ secrets.DB_CREDENTIALS_JSON }}
