@@ -6,4 +6,4 @@ on:
 
 jobs:
   call-reusable-workflow:
-    uses: testforgha/reusable-workflow/.github/workflows/reusable-flow.yml@feature-file
+    uses: testforgha/reusable-workflow/.github/workflows/reusable-workflow-2.yml@feature-file
