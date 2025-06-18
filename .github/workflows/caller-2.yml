@@ -1,0 +1,9 @@
+# .github/workflows/caller-workflow.yml
+name: File Call Reusable Workflow
+
+on:
+  workflow_dispatch
+
+jobs:
+  call-reusable-workflow:
+    uses: testforgha/reusable-workflow/.github/workflows/reusable-flow.yml@feature-file
